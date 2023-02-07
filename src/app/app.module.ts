@@ -24,12 +24,12 @@ import { LoginComponent } from './login/login.component';
     {
       provide: 'SocialAuthServiceConfig',
       useValue: {
-        autoLogin: false,
+        autoLogin: true,
         providers: [
           {
             id: GoogleLoginProvider.PROVIDER_ID,
             provider: new GoogleLoginProvider(
-              'http://922836906776-1toplt56t65nclpfcndfq8noe13b1mns.apps.googleusercontent.com/'
+              '656876521756-61tsmoqseusrr56v3l7i1ptfqhuvhdkt.apps.googleusercontent.com'
             )
           }
         ],
